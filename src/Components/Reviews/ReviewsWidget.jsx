@@ -29,7 +29,7 @@ export default function ReviewsWidget() {
             Opiniones de nuestros clientes
           </h2>
           <p className="mt-1 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-            Lo que dicen sobre CTEnvíos
+            Lo que dicen sobre TramiXpress
           </p>
           <div ref={hostRef} className="mt-4" />
         </div>

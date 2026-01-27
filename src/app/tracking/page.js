@@ -4,26 +4,26 @@ import { Suspense } from "react";
 import { Stats } from "@/Components/Stats/Stats";
 
 export const metadata = {
-	title: "Rastrear Envío a Cuba - Tracking de Paquetes | CTEnvios",
+	title: "Rastrear Envío a Cuba - Tracking de Paquetes | TramiXpress",
 	description:
-		"Rastrea tu paquete enviado a Cuba en tiempo real. Ingresa tu número de tracking para ver el estado actual de tu envío. Seguimiento de envíos marítimos y aéreos a Cuba.",
+		"Rastrea tu paquete enviado a Cuba desde Sarasota en tiempo real. Ingresa tu número de tracking para ver el estado actual de tu envío por TramiXpress.",
 	keywords: [
-		"Rastrear paquete Cuba",
-		"Tracking envío Cuba",
-		"Seguimiento de paquetes a Cuba",
-		"Estado de envío a Cuba",
-		"Número de tracking Cuba",
-		"Localizar paquete Cuba",
+		"Rastrear paquete Cuba Sarasota",
+		"Tracking envío Cuba TramiXpress",
+		"Seguimiento de paquetes a Cuba Florida",
+		"Estado de envío a Cuba Sarasota",
+		"Número de tracking TramiXpress",
+		"Localizar paquete Cuba Bradenton",
 	],
 	alternates: {
 		canonical: "/tracking",
 	},
 	openGraph: {
-		title: "Rastrear Envío a Cuba - CTEnvios Tracking",
+		title: "Rastrear Envío a Cuba - TramiXpress Tracking",
 		description:
-			"Rastrea tu paquete a Cuba en tiempo real. Ingresa tu número de seguimiento para ver actualizaciones.",
-		url: "https://ctenvios.com/tracking",
-		siteName: "CTEnvios",
+			"Rastrea tu paquete a Cuba en tiempo real con TramiXpress. Ingresa tu número de seguimiento para ver actualizaciones desde Sarasota.",
+		url: "https://tramiexpress.com/tracking",
+		siteName: "TramiXpress",
 		locale: "es_ES",
 		type: "website",
 	},

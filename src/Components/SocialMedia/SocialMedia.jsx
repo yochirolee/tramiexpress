@@ -6,15 +6,15 @@ export const SocialMedia = () => {
 			<div className="mx-auto max-w-2xl text-center lg:max-w-4xl">
 				<h2 className="text-base font-semibold leading-7 text-sky-400 dark:text-brand-primary">Nuestras Redes Sociales</h2>
 				<p className="mt-2 text-2xl font-bold tracking-tight text-white dark:text-white sm:text-3xl">
-					Comienza a seguirnos y únete a la comunidad CTEnvíos.
+					Comienza a seguirnos y únete a la comunidad TramiXpress.
 				</p>
 				<p className="mt-4 text-base text-slate-300 dark:text-slate-400 sm:text-lg">
-					Mantente informado sobre nuestras ofertas, novedades y consejos para enviar paquetes a Cuba de forma segura y rápida.
+					Mantente informado sobre nuestras ofertas, novedades y consejos para enviar paquetes a Cuba desde Sarasota de forma segura y rápida.
 				</p>
 			</div>
 			<div className=" items-center mt-10  z-20 justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
 				<a
-					href="https://www.facebook.com/people/CTEnvios/100087529462450/"
+					href="https://www.facebook.com/tramiexpress"
 					target="_blank"
 					className="w-full sm:w-auto border dark:bg-gray-800 focus:ring-4 focus:outline-none bg- focus:ring-gray-300 text-gray-800 rounded-lg inline-flex items-center justify-center px-4 py-2.5 "
 				>
@@ -36,7 +36,7 @@ export const SocialMedia = () => {
 					</div>
 				</a>
 				<a
-					href="https://www.instagram.com/ctenvios/"
+					href="https://www.instagram.com/tramiexpress"
 					target="_blank"
 					className="w-full sm:w-auto border dark:bg-gray-800 focus:ring-4 focus:outline-none bg-gray-50 focus:ring-gray-300 text-gray-800 rounded-lg inline-flex items-center justify-center px-4 py-2.5 "
 				>

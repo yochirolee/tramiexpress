@@ -18,7 +18,7 @@ export const HeroNew = () => {
                         </Highlighter>
                     </h1>
                     <p className="mt-6 text-lg leading-8 text-slate-600 dark:text-slate-300">
-                        CTEnvíos es tu agencia confiable para envíos marítimos y aéreos a Cuba y el Caribe, con más de 20 años de experiencia. Ofrecemos entrega puerta a puerta, seguimiento en tiempo real y atención personalizada.
+                        TramiXpress es tu agencia confiable para envíos marítimos y aéreos a Cuba y el Caribe, con más de 20 años de experiencia. Ofrecemos entrega puerta a puerta, seguimiento en tiempo real y atención personalizada.
                     </p>
                     <div className="mt-10 flex items-center gap-x-6">
                         <Link
@@ -41,7 +41,7 @@ export const HeroNew = () => {
                         <Image
                             src="/new-women.png"
                             className="rounded-3xl relative z-10 hover:scale-105 transition-transform duration-700 ease-out"
-                            alt="Agencia de Envíos CTEnvíos"
+                            alt="Agencia de Envíos TramiXpress"
                             width={400}
                             height={600}
                             priority={true}

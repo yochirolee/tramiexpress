@@ -24,14 +24,14 @@ export default function TermsAndConditions() {
 				{
 					title: "1. Introducción",
 					content: [
-						"Bienvenido a CT Envíos. Estos términos y condiciones rigen el uso de nuestros servicios de envío internacional a Cuba, incluyendo nuestro sitio web, aplicaciones móviles y todos los servicios relacionados.",
+						"Bienvenido a TramiXpress. Estos términos y condiciones rigen el uso de nuestros servicios de envío internacional a Cuba, incluyendo nuestro sitio web, aplicaciones móviles y todos los servicios relacionados.",
 						"Al utilizar nuestros servicios, usted acepta estos términos y condiciones en su totalidad. Si no está de acuerdo en su totalidad con estos términos y condiciones o cualquier parte de los mismos, no debe utilizar nuestros servicios.",
 					],
 				},
 				{
 					title: "2. Servicios de Envío",
 					content: [
-						"CT Envíos ofrece servicios de logística internacional, especializados en envíos de cargas marítimas y aéreas a toda Cuba.",
+						"TramiXpress ofrece servicios de logística internacional, especializados en envíos de cargas marítimas y aéreas a toda Cuba.",
 						"Nos comprometemos a entregar sus paquetes hasta la puerta de su destinatario en Cuba, sujeto a las regulaciones aduaneras y restricciones aplicables.",
 						"Los tiempos de entrega son estimados y pueden variar según factores externos como condiciones climáticas, procedimientos aduaneros, y situaciones fuera de nuestro control.",
 					],
@@ -59,7 +59,7 @@ export default function TermsAndConditions() {
 						"Artículos que violen las leyes de embargo",
 					],
 					afterList: [
-						"El remitente es responsable de asegurar que el contenido del paquete, asi como la información brindada, no infringen las leyes de los Estados Unidos y Cuba. CT Envíos se reserva el derecho de inspeccionar los paquetes para verificar su contenido.",
+						"El remitente es responsable de asegurar que el contenido del paquete, asi como la información brindada, no infringen las leyes de los Estados Unidos y Cuba. TramiXpress se reserva el derecho de inspeccionar los paquetes para verificar su contenido.",
 					],
 				},
 				{
@@ -75,7 +75,7 @@ export default function TermsAndConditions() {
 					content: [
 						"Ofrecemos opciones de seguro para proteger sus envíos contra pérdida o daño. Recomendamos asegurar todos los envíos de valor.",
 						"Sin seguro adicional, nuestra responsabilidad por pérdida o daño está limitada según lo establecido por las convenciones internacionales de transporte.",
-						"CT Envíos no será responsable por retrasos causados por procedimientos aduaneros, condiciones climáticas, o cualquier otra circunstancia fuera de nuestro control razonable.",
+						"TramiXpress no será responsable por retrasos causados por procedimientos aduaneros, condiciones climáticas, o cualquier otra circunstancia fuera de nuestro control razonable.",
 					],
 				},
 				{
@@ -96,7 +96,7 @@ export default function TermsAndConditions() {
 				{
 					title: "9. Modificaciones",
 					content: [
-						"CT Envíos se reserva el derecho de modificar estos términos y condiciones en cualquier momento. Las modificaciones entrarán en vigor inmediatamente después de su publicación en nuestro sitio web.",
+						"TramiXpress se reserva el derecho de modificar estos términos y condiciones en cualquier momento. Las modificaciones entrarán en vigor inmediatamente después de su publicación en nuestro sitio web.",
 						"Es responsabilidad del usuario revisar periódicamente estos términos y condiciones para estar al tanto de cualquier cambio.",
 					],
 				},
@@ -104,7 +104,7 @@ export default function TermsAndConditions() {
 					title: "10. Ley Aplicable",
 					content: [
 						"Estos términos y condiciones se regirán e interpretarán de acuerdo con las leyes de los Estados Unidos y el Estado de Florida, sin tener en cuenta sus disposiciones sobre conflictos de leyes.",
-						"Cualquier disputa que surja en relación con estos términos será sometida a la jurisdicción exclusiva de los tribunales del Condado de Miami-Dade, Florida.",
+						"Cualquier disputa que surja en relación con estos términos será sometida a la jurisdicción exclusiva de los tribunales del Condado de Sarasota, Florida.",
 					],
 				},
 				{
@@ -113,10 +113,10 @@ export default function TermsAndConditions() {
 						"Si tiene alguna pregunta sobre estos términos y condiciones, por favor contáctenos:",
 					],
 					contact: [
-						"CTEnvios",
-						"10230 NW 80th Ave. Hialeah Gardens",
-						"Teléfono: 305-851-3004",
-						"Email: soporte@ctenvios.com",
+						"TramiXpress",
+						"Sarasota, Florida",
+						"Teléfono: +1 754 277 8810",
+						"Email: soporte@tramiexpress.com",
 						"Whatsapp: +1 754 277 8810",
 					],
 				},
@@ -132,14 +132,14 @@ export default function TermsAndConditions() {
 				{
 					title: "1. Introduction",
 					content: [
-						"Welcome to CT Envíos. These terms and conditions govern the use of our international shipping services to Cuba, including our website, mobile applications, and all related services.",
+						"Welcome to TramiXpress. These terms and conditions govern the use of our international shipping services to Cuba, including our website, mobile applications, and all related services.",
 						"By using our services, you agree to these terms and conditions in full. If you disagree with these terms and conditions or any part of them, you must not use our services.",
 					],
 				},
 				{
 					title: "2. Shipping Services",
 					content: [
-						"CT Envíos offers international logistics services, specializing in maritime and air cargo shipments to all of Cuba.",
+						"TramiXpress offers international logistics services, specializing in maritime and air cargo shipments to all of Cuba.",
 						"We are committed to delivering your packages to your recipient's door in Cuba, subject to applicable customs regulations and restrictions.",
 						"Delivery times are estimated and may vary according to external factors such as weather conditions, customs procedures, and situations beyond our control.",
 					],
@@ -167,7 +167,7 @@ export default function TermsAndConditions() {
 						"Items that violate embargo laws",
 					],
 					afterList: [
-						"The sender is responsible for ensuring that the package contents do not violate these restrictions. CT Envíos reserves the right to inspect packages to verify their contents.",
+						"The sender is responsible for ensuring that the package contents do not violate these restrictions. TramiXpress reserves the right to inspect packages to verify their contents.",
 					],
 				},
 				{
@@ -183,7 +183,7 @@ export default function TermsAndConditions() {
 					content: [
 						"We offer insurance options to protect your shipments against loss or damage. We recommend insuring all valuable shipments.",
 						"Without additional insurance, our liability for loss or damage is limited as established by international transport conventions.",
-						"CT Envíos will not be responsible for delays caused by customs procedures, weather conditions, or any other circumstance beyond our reasonable control.",
+						"TramiXpress will not be responsible for delays caused by customs procedures, weather conditions, or any other circumstance beyond our reasonable control.",
 					],
 				},
 				{
@@ -204,7 +204,7 @@ export default function TermsAndConditions() {
 				{
 					title: "9. Modifications",
 					content: [
-						"CT Envíos reserves the right to modify these terms and conditions at any time. Modifications will take effect immediately after their publication on our website.",
+						"TramiXpress reserves the right to modify these terms and conditions at any time. Modifications will take effect immediately after their publication on our website.",
 						"It is the user's responsibility to periodically review these terms and conditions to be aware of any changes.",
 					],
 				},
@@ -212,7 +212,7 @@ export default function TermsAndConditions() {
 					title: "10. Applicable Law",
 					content: [
 						"These terms and conditions will be governed and interpreted in accordance with the laws of the United States and the State of Florida, regardless of its conflict of law provisions.",
-						"Any dispute arising in connection with these terms will be subject to the exclusive jurisdiction of the courts of Miami-Dade County, Florida.",
+						"Any dispute arising in connection with these terms will be subject to the exclusive jurisdiction of the courts of Sarasota County, Florida.",
 					],
 				},
 				{
@@ -221,10 +221,10 @@ export default function TermsAndConditions() {
 						"If you have any questions about these terms and conditions, please contact us:",
 					],
 					contact: [
-						"CTEnvios",
-						"10230 NW 80th Ave. Hialeah Gardens",
-						"Phone: 305-851-3004",
-						"Email: soporte@ctenvios.com",
+						"TramiXpress",
+						"Sarasota, Florida",
+						"Phone: +1 754 277 8810",
+						"Email: soporte@tramiexpress.com",
 					],
 				},
 			],

@@ -6,7 +6,7 @@ import { ColorTransitionGradient } from "../ui/background-gradient";
 const stats = [
 	{ id: 1, name: "Transporte eficiente y constante", description: "Contenedores Enviados", value: 85 },
 	{ id: 2, name: "Entregas puerta a puerta", description: "Paquetes Entregados", value: 126000 },
-	{ id: 3, name: "Nuevas Familias para CTEnvíos", description: "Nuevos Clientes", value: 3402 },
+	{ id: 3, name: "Nuevas Familias para TramiXpress", description: "Nuevos Clientes", value: 3402 },
 ];
 
 export const Stats = () => {

@@ -21,8 +21,8 @@ export default function NavBar() {
 			<nav className="flex items-center justify-between p-6 lg:px-8 " aria-label="Global">
 				<div className="flex flex-1">
 					<Link href="/" className="-m-1.5 p-1.5">
-						<span className="sr-only">Caribe Travel Express</span>
-						<Image width={50} height={50} src="/ctelogo.png" alt="Logo CTEnvios" />
+						<span className="sr-only">TramiXpress</span>
+						<Image width={50} height={50} src="/ctelogo.png" alt="Logo TramiXpress" />
 					</Link>
 				</div>
 				<div className="flex  gap-4 lg:hidden">
@@ -56,8 +56,8 @@ export default function NavBar() {
 				<Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white dark:bg-slate-950 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
 					<div className="flex items-center justify-between">
 						<Link href="/" className="-m-1.5 p-1.5">
-							<span className="sr-only">Caribe Travel Express</span>
-							<Image width={50} height={50} src="/ctelogo.png" alt="CTEnvios Logo" />
+							<span className="sr-only">TramiXpress</span>
+							<Image width={50} height={50} src="/ctelogo.png" alt="TramiXpress Logo" />
 						</Link>
 						<button
 							type="button"

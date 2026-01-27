@@ -33,7 +33,7 @@ export const TrackingCard = ({ parcel, invoice }) => {
 								</div>
 								<div>
 									<h3 className="text-sm font-medium text-slate-500 dark:text-slate-400">Agencia</h3>
-									<p className="font-bold text-slate-900 dark:text-white">{invoice?.agency || "CTEnvíos"}</p>
+									<p className="font-bold text-slate-900 dark:text-white">{invoice?.agency || "TramiXpress"}</p>
 								</div>
 							</div>
 

@@ -62,7 +62,7 @@ export const ProcessBentoGrid = () => {
                             </div>
                             <h3 className="mt-2 text-2xl font-bold tracking-tight text-slate-900 dark:text-white">Recepción en Agencia</h3>
                             <p className="mt-4 text-base leading-7 text-slate-600 dark:text-slate-300 flex-1">
-                                El proceso inicia en nuestras oficinas de Hialeah. Realizamos el pesaje, inspección exhaustiva
+                                El proceso inicia en nuestras oficinas de Sarasota. Realizamos el pesaje, inspección exhaustiva
                                 y etiquetado profesional de tu carga para garantizar un trayecto seguro.
                             </p>
                             <div className="mt-8 flex items-center gap-2 text-sm font-medium text-brand-primary">

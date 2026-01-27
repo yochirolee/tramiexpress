@@ -6,7 +6,7 @@ export default function NewsLetter() {
 		<section className="relative isolate overflow-hidden bg-slate-50 dark:bg-slate-950 py-16 sm:py-24 lg:py-32">
 			{/* Background Pattern */}
 
-			
+
 			<div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
 				<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:max-w-none lg:grid-cols-2 items-center">
 
@@ -112,7 +112,7 @@ export default function NewsLetter() {
 										Cero Spam Garantizado
 									</h3>
 									<p className="mt-2 text-slate-400 leading-relaxed">
-										En CTEnvíos nos comprometemos a enviarte solo información relevante y útil. Puedes darte de baja cuando quieras.
+										En TramiXpress nos comprometemos a enviarte solo información relevante y útil. Puedes darte de baja cuando quieras.
 									</p>
 								</div>
 							</div>
@@ -132,7 +132,7 @@ export default function NewsLetter() {
 					</div>
 
 				</div>
-           
+
 			</div>
 		</section>
 	);

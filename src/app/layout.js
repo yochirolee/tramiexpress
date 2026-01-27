@@ -1,6 +1,6 @@
 //import Script from "next/script";
 import NavBar from "@/Components/NavBar/NavBar";
-import {  ColorTransitionGradient } from "@/Components/ui/background-gradient";
+import { ColorTransitionGradient } from "@/Components/ui/background-gradient";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { Footer } from "@/Components/Footer/Footer";
@@ -16,42 +16,37 @@ const inter = Inter({
 });
 
 export const metadata = {
-	title: "CTEnvios - Envíos a Cuba Rápidos y Confiables",
+	title: "TramiXpress - Envíos a Cuba desde Sarasota, Bradenton y Tampa",
 	description:
-		"CTEnvios ofrece servicios de envío a Cuba seguros y económicos. Envía paquetes, remesas, alimentos y más a tus seres queridos en Cuba con garantía y rapidez.",
+		"TramiXpress ofrece servicios de envío a Cuba seguros y rápidos desde Sarasota, FL. Especialistas en paquetería, remesas, alimentos y carga a toda Cuba.",
 	generator: "Next.js",
-	applicationName: "CTEnvios",
+	applicationName: "TramiXpress",
 	referrer: "origin-when-cross-origin",
-	metadataBase: new URL("https://ctenvios.com"),
+	metadataBase: new URL("https://tramiexpress.com"),
 	alternates: {
 		canonical: "/",
 	},
 	keywords: [
-		"Envíos a Cuba",
-		"Paquetes a Cuba",
-		"Remesas a Cuba",
+		"Envíos a Cuba desde Sarasota",
+		"Paquetes a Cuba Bradenton",
+		"Remesas a Cuba Tampa",
 		"Envío marítimo y aéreo a Cuba",
 		"Servicios de mensajería a Cuba",
-		"Agencia de envíos a Cuba",
-		"Autos y Carros para Cuba",
-		"Motos para Cuba",
+		"Agencia de envíos a Cuba en Sarasota",
+		"TramiXpress envíos a Cuba",
 		"Enviar dinero a Cuba",
 		"Enviar comida a Cuba",
 		"Envíos seguros a Cuba",
 		"Mejor servicio de envíos a Cuba",
 		"Envíos garantizados a Cuba",
-		"Cubamax envíos a Cuba",
-		"Dimecuba envíos a Cuba",
-		"Rapidviaservices envíos a Cuba",
-		"Cubaencarga envíos a Cuba",
 	],
-	authors: [{ name: "CTEnvios Team" }],
-	creator: "CTEnvios",
-	publisher: "CTEnvios",
+	authors: [{ name: "TramiXpress Team" }],
+	creator: "TramiXpress",
+	publisher: "TramiXpress",
 	icons: {
-		icon: "/ctelogo.ico",
-		shortcut: "/ctelogo.ico",
-		apple: "/ctelogo.ico",
+		icon: "/favicon.ico",
+		shortcut: "/favicon.ico",
+		apple: "/favicon.ico",
 	},
 	formatDetection: {
 		email: false,
@@ -70,17 +65,17 @@ export const metadata = {
 		},
 	},
 	openGraph: {
-		title: "CTEnvios -Agencia de Envíos a Cuba Rápidos y Confiables",
+		title: "TramiXpress - Envíos a Cuba desde Sarasota, Bradenton y Tampa",
 		description:
-			"Agencia de envíos a Cuba seguros y económicos. Envía paquetes y más a tus seres queridos en Cuba.",
-		url: "https://ctenvios.com",
-		siteName: "CTEnvios",
+			"Agencia de envíos a Cuba desde Sarasota. Paquetería, con seguridad y rapidez.",
+		url: "https://tramiexpress.com",
+		siteName: "TramiXpress",
 		images: [
 			{
-				url: "https://ctenvios.com/banner-discounts-compressed.jpg",
+				url: "/og-image.jpg",
 				width: 1200,
 				height: 630,
-				alt: "CTEnvios - Envíos a Cuba",
+				alt: "TramiXpress - Envíos a Cuba",
 				type: "image/png",
 			},
 		],
@@ -90,13 +85,13 @@ export const metadata = {
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "CTEnvios - Agencia de Envíos a Cuba Rápidos y Confiables",
+		title: "TramiXpress - Envíos a Cuba desde Sarasota, Bradenton y Tampa",
 		description:
-			"Agencia de envíos a Cuba seguros y económicos. Envía paquetes y más a tus seres queridos en Cuba.",
-		creator: "@ctenvios",
+			"Agencia de envíos a Cuba desde Sarasota. Paquetería, con seguridad y rapidez.",
+		creator: "@tramiexpress",
 		images: {
-			url: "https://ctenvios.com/banner-discounts-compressed.jpg",
-			alt: "CTEnvios - Envíos a Cuba",
+			url: "/og-image.jpg",
+			alt: "TramiXpress - Envíos a Cuba",
 		},
 	},
 	verification: {

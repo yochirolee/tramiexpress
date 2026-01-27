@@ -32,27 +32,27 @@ const faqData = [
 const localBusinessSchema = {
 	"@context": "https://schema.org",
 	"@type": "LocalBusiness",
-	"@id": "https://ctenvios.com/#business",
-	name: "CTEnvios",
-	alternateName: "CTEnvíos",
+	"@id": "https://tramiexpress.com/#business",
+	name: "TramiXpress",
+	alternateName: "TramiXpress Florida",
 	description:
-		"CTEnvios ofrece servicios de envío a Cuba seguros y económicos. Envía paquetes, remesas, alimentos y más a tus seres queridos en Cuba con garantía y rapidez.",
-	url: "https://ctenvios.com",
+		"TramiXpress ofrece servicios de envío a Cuba seguros y rápidos desde Sarasota, FL. Especialistas en paquetería, remesas, alimentos y carga.",
+	url: "https://tramiexpress.com",
 	telephone: "+1-754-277-8810",
 	priceRange: "$$",
-	image: "https://ctenvios.com/ctelogo.png",
+	image: "https://tramiexpress.com/logo.png",
 	address: {
 		"@type": "PostalAddress",
-		streetAddress: "Hialeah",
-		addressLocality: "Hialeah",
+		streetAddress: "Sarasota",
+		addressLocality: "Sarasota",
 		addressRegion: "FL",
-		postalCode: "33012",
+		postalCode: "34231",
 		addressCountry: "US",
 	},
 	geo: {
 		"@type": "GeoCoordinates",
-		latitude: 25.8576,
-		longitude: -80.2781,
+		latitude: 27.3364,
+		longitude: -82.5307,
 	},
 	openingHoursSpecification: [
 		{
@@ -69,17 +69,25 @@ const localBusinessSchema = {
 		},
 	],
 	sameAs: [
-		"https://www.facebook.com/people/CTEnvios/100087529462450/",
-		"https://www.instagram.com/ctenvios/",
+		"https://www.facebook.com/tramiexpress",
+		"https://www.instagram.com/tramiexpress",
 	],
 	areaServed: [
 		{
-			"@type": "Country",
-			name: "Cuba",
+			"@type": "City",
+			name: "Sarasota",
+		},
+		{
+			"@type": "City",
+			name: "Bradenton",
+		},
+		{
+			"@type": "City",
+			name: "Tampa",
 		},
 		{
 			"@type": "Country",
-			name: "United States",
+			name: "Cuba",
 		},
 	],
 	serviceType: ["Envíos a Cuba", "Paquetes a Cuba", "Envío marítimo", "Envío aéreo"],
@@ -89,13 +97,13 @@ const localBusinessSchema = {
 const organizationSchema = {
 	"@context": "https://schema.org",
 	"@type": "Organization",
-	"@id": "https://ctenvios.com/#organization",
-	name: "CTEnvios",
-	alternateName: "CTEnvíos",
-	url: "https://ctenvios.com",
+	"@id": "https://tramiexpress.com/#organization",
+	name: "TramiXpress",
+	alternateName: "TramiXpress",
+	url: "https://tramiexpress.com",
 	logo: {
 		"@type": "ImageObject",
-		url: "https://ctenvios.com/ctelogo.png",
+		url: "https://tramiexpress.com/logo.png",
 		width: 512,
 		height: 512,
 	},
@@ -106,8 +114,8 @@ const organizationSchema = {
 		availableLanguage: ["Spanish", "English"],
 	},
 	sameAs: [
-		"https://www.facebook.com/people/CTEnvios/100087529462450/",
-		"https://www.instagram.com/ctenvios/",
+		"https://www.facebook.com/tramiexpress",
+		"https://www.instagram.com/tramiexpress",
 	],
 };
 
@@ -129,14 +137,14 @@ const faqPageSchema = {
 const webSiteSchema = {
 	"@context": "https://schema.org",
 	"@type": "WebSite",
-	"@id": "https://ctenvios.com/#website",
-	name: "CTEnvios",
-	url: "https://ctenvios.com",
+	"@id": "https://tramiexpress.com/#website",
+	name: "TramiXpress",
+	url: "https://tramiexpress.com",
 	potentialAction: {
 		"@type": "SearchAction",
 		target: {
 			"@type": "EntryPoint",
-			urlTemplate: "https://ctenvios.com/tracking?q={search_term_string}",
+			urlTemplate: "https://tramiexpress.com/tracking?q={search_term_string}",
 		},
 		"query-input": "required name=search_term_string",
 	},

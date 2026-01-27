@@ -45,7 +45,7 @@ export const TrackingContent = () => {
 								Envíe Rápido y Seguro
 							</h2>
 							<p className="mt-2 text-2xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-3xl">
-								CTEnvíos a Cuba y el Caribe
+								TramiXpress a Cuba y el Caribe
 							</p>
 						</div>
 					</div>
@@ -92,7 +92,7 @@ export const TrackingContent = () => {
 									/>
 									<span>
 										<strong className="font-semibold text-slate-900 dark:text-white">Garantía y Seguridad.</strong>{" "}
-										Con CTEnvíos, todos tus envíos están asegurados y protegidos. Tu tranquilidad es nuestra prioridad.
+										Con TramiXpress, todos tus envíos están asegurados y protegidos. Tu tranquilidad es nuestra prioridad.
 									</span>
 								</li>
 							</ul>

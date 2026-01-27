@@ -23,7 +23,7 @@ const getProductData = async (id) => {
 	//scalp id
 	if (trimedId.length >= 4 && trimedId.length < 7) {
 		const response = await axios.get(`parcels/invoice/${trimedId}`);
-		
+
 		return response.data;
 	} else {
 		const response = await axios.get(`parcels/hbl/${trimedId}`);
