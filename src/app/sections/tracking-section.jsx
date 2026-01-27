@@ -64,34 +64,34 @@ export const ShadowBg2 = () => {
 
 export default function TrackingSection() {
 	return (
-		
+
 		<section className=" relative py-20  md:py-12 ">
 			<div className="mx-auto sm:py-24 lg:py-32 lg:container lg:max-w-7xl ">
 				<div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-12">
 					<div className=" relative mx-auto px-4 text-center  ">
 						<div className="mx-auto max-w-2xl text-center lg:max-w-4xl">
-							<h2 className="text-base font-semibold leading-7 text-sky-600">
+							<h2 className="text-base font-semibold leading-7 dark:text-brand-primary">
 								Sistema de Tracking
 							</h2>
-							<p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+							<p className="mt-2 text-2xl font-bold tracking-tight text-white dark:text-white sm:text-3xl">
 								Conozca en todo momento dónde se encuentra su envío
 							</p>
 						</div>
 
 						{/* <SphereMask /> */}
 
-						<ShimmerButton className=" mx-auto w-64 bg-gray-800 mt-8">
+						<ShimmerButton className=" mx-auto w-64 mt-8 ">
 							<Link href="/tracking" className="inline-flex items-center gap-2">
-								Tracking
-								<MapPinIcon className="ml-1 size-4 transition-all duration-300 ease-out group-hover:translate-x-1" />
+								<span className="text-white dark:text-white">Tracking</span>
+								<MapPinIcon className="ml-1 size-4 transition-all dark:text-brand-primary duration-300 ease-out group-hover:translate-x-1" />
 							</Link>
 						</ShimmerButton>
 					</div>
 
-					<div className="relative h-full rounded-xl   bg-white/30 backdrop-blur-md">
+					<div className="relative h-full rounded-xl   bg-white/5 border border-white/10 backdrop-blur-md">
 						<div className="absolute inset-0 -z-10 overflow-hidden">
 							<svg
-								className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+								className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-white/5 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
 								aria-hidden="true"
 							>
 								<defs>
@@ -106,7 +106,7 @@ export default function TrackingSection() {
 										<path d="M100 200V.5M.5 .5H200" fill="none" />
 									</pattern>
 								</defs>
-								<svg x="50%" y={-1} className="overflow-visible fill-gray-50">
+								<svg x="50%" y={-1} className="overflow-visible fill-white/5">
 									<path
 										d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
 										strokeWidth={0}
@@ -126,6 +126,6 @@ export default function TrackingSection() {
 			</div>
 			<ShadowBg1 />
 		</section>
-		
+
 	);
 }

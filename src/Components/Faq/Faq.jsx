@@ -1,5 +1,4 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../ui/accordion";
-
 const faqSections = [
 	{
 		title: "Información General",
@@ -56,26 +55,31 @@ const faqSections = [
 
 export default function Faq() {
 	return (
-		<div id="faq" className="py-20 mx-4 sm:py-24 lg:py-32 items-center  grid lg:grid-cols-2 gap-10">
-			<div className="mx-auto max-w-2xl text-center lg:max-w-4xl">
-				<h2 className="text-base font-semibold leading-7 text-sky-600">Preguntas Frecuentes</h2>
-				<p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-				Somos tu agencia de envíos a Cuba y estamos aquí para ayudarte en cada paso.
+		<div id="faq" className="relative  lg:rounded-3xl isolate py-20 mx-4 sm:py-24 lg:py-32 grid lg:grid-cols-2 gap-10 overflow-hidden bg-slate-50 dark:bg-slate-950">
+			{/* Sunburst Background Pattern */}
+
+			{/* Theme Glow */}
+
+
+			<div className="mx-auto max-w-2xl text-center lg:max-w-4xl flex flex-col justify-center items-center">
+				<h2 className="text-base font-semibold leading-7 text-brand-primary">Preguntas Frecuentes</h2>
+				<p className="mt-2 text-2xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-3xl">
+					Somos tu agencia de envíos a Cuba y estamos aquí para ayudarte en cada paso.
 				</p>
 			</div>
 			<div>
 				{faqSections.map((section, sectionIndex) => (
 					<div key={sectionIndex} className="mb-10">
-						<h2 className=" cursor-pointer    text-base font-semibold leading-7 text-sky-700">
+						<h2 className=" cursor-pointer    text-base font-semibold leading-7 text-brand-secondary">
 							{section.title}
 						</h2>
 						<Accordion type="single" collapsible>
 							{section.faqs.map((faq, faqIndex) => (
-								<AccordionItem key={faqIndex} value={faq.value}>
-									<AccordionTrigger className="inline-flex text-left justify-between">
+								<AccordionItem key={faqIndex} value={faq.value} className="border-b-slate-200 dark:border-b-white/10">
+									<AccordionTrigger className="inline-flex text-left justify-between text-slate-900 dark:text-white hover:text-brand-primary dark:hover:text-brand-primary">
 										{faq.title}
 									</AccordionTrigger>
-									<AccordionContent>{faq.content}</AccordionContent>
+									<AccordionContent className="text-slate-600 dark:text-slate-400">{faq.content}</AccordionContent>
 								</AccordionItem>
 							))}
 						</Accordion>

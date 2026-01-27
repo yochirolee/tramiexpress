@@ -1,11 +1,13 @@
 //import Script from "next/script";
 import NavBar from "@/Components/NavBar/NavBar";
+import {  ColorTransitionGradient } from "@/Components/ui/background-gradient";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { Footer } from "@/Components/Footer/Footer";
 import QueryProvider from "@/Utils/Providers/QueryProvider";
 import Script from "next/script";
 import { JsonLd } from "@/Components/Seo/JsonLd";
+import { ThemeProvider } from "@/Components/ui/theme-provider";
 
 const inter = Inter({
 	subsets: ["latin"],
@@ -117,7 +119,7 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="es">
+		<html lang="es" suppressHydrationWarning>
 			<head>
 				<link rel="preconnect" href="https://www.google-analytics.com" />
 				<link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
@@ -136,15 +138,19 @@ export default function RootLayout({ children }) {
 			`}
 			</Script>
 			<body className={inter.className}>
-				<div className="relative isolate pt-4 max-w-7xl mx-auto sm:px-6 lg:pt-14 lg:px-8">
-					<header>
-						<NavBar />
-					</header>
-					<QueryProvider>{children}</QueryProvider>
-				</div>
+				<ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+					<div className="relative isolate pt-4 max-w-7xl mx-auto sm:px-6 lg:pt-14 lg:px-8">
+						<ColorTransitionGradient />
 
-				<Footer />
-				<JsonLd />
+						<header>
+							<NavBar />
+						</header>
+						<QueryProvider>{children}</QueryProvider>
+					</div>
+
+					<Footer />
+					<JsonLd />
+				</ThemeProvider>
 			</body>
 		</html>
 	);

@@ -1,6 +1,6 @@
 "use client";
 import { React, useState, useEffect } from "react";
-import { ShadowBg1, ShadowBg2 } from "../ui/ShadowBg1";
+import { ColorTransitionGradient } from "../ui/background-gradient";
 import { MagnifyingGlassIcon, MapPinIcon } from "@heroicons/react/24/outline";
 import { TrackingDetails } from "../TrackingDetails/TrackingDetails";
 import { useFetchByInvoiceOrHBL } from "@/Hooks/useFetchByInvoiceOrHBL";
@@ -12,11 +12,11 @@ export const HeroTracking = () => {
 	const router = useRouter();
 	const searchParams = useSearchParams();
 	const [searchTerm, setSearchTerm] = useState(searchParams.get("search") || "");
-	
+
 	const { data: invoice, isLoading, isError } = useFetchByInvoiceOrHBL(searchTerm);
 	const [hasSearched, setHasSearched] = useState(!!searchParams.get("search"));
 
-	
+
 	useEffect(() => {
 		const currentSearch = searchParams.get("search");
 		if (currentSearch) {
@@ -37,75 +37,93 @@ export const HeroTracking = () => {
 	};
 
 	if (isError) {
-		<div>Something Wrong</div>;
+		return <div className="text-center py-20 text-red-500">Hubo un error al buscar la información.</div>;
 	}
 
 	return (
-		<div className="max-w-7xl mx-auto">
-			<ShadowBg1 />
-			<div className="grid   px-4   mx-auto container  py-6  lg:pt-20  pb- ">
-				<div className=" mt-10 sm:mb-8 sm:flex sm:justify-center ">
-					<div className="max-w-xl lg:max-w-lg">
-						<div className=" flex flex-col gap-4 ">
-							<MapPinIcon
-								className={`w-16 h-16 mx-auto text-blue-500 ${
-									hasSearched && isLoading ? "animate-spin" : "animate-bounce"
-								}`}
-							/>
-							<h2 className="mt-4 text-center text-2xl font-extrabold tracking-tight text-slate-900 xl:text-3xl xl:leading-[2.5rem]">
-								Rastreo de Envíos a Cuba en Tiempo Real
-							</h2>
-						</div>
+		<div className="relative isolate min-h-[60vh]">
+			<ColorTransitionGradient />
 
-						<form onSubmit={handleOnSubmit}>
-							<div className="mt-6 flex flex-col  md:flex-row  max-w-md gap-x-4">
-								<label htmlFor="search" className="sr-only">
-									Traking
-								</label>
-								<input
-									id="search"
-									name="search"
-									type="text"
-									autoComplete="text"
-									required
-									defaultValue={searchTerm}
-									className="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2  shadow-sm ring-1 ring-inset ring-blue/10 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm sm:leading-6"
-									placeholder="Buscar por Factura o HBL"
-								/>
+			<div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+				<div className="mx-auto max-w-2xl text-center flex flex-col items-center">
+					<div className="inline-flex items-center gap-2 rounded-full bg-brand-primary/10 px-4 py-1.5 mb-8 ring-1 ring-brand-primary/30">
+						<span className="h-2 w-2 rounded-full bg-brand-primary animate-pulse" />
+						<span className="text-sm font-medium text-brand-primary">Tracking 24/7</span>
+					</div>
+
+					<MapPinIcon
+						className={`w-16 h-16 mx-auto text-brand-primary ${hasSearched && isLoading ? "animate-spin" : "animate-bounce"
+							}`}
+					/>
+
+					<h1 className="mt-6 text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-5xl">
+						Localiza tu <span className="text-brand-primary">Envío</span>
+					</h1>
+
+					<p className="mt-6 text-lg leading-8 text-slate-600 dark:text-slate-300">
+						Sigue el estado de tus paquetes a Cuba en tiempo real. Ingresa tu número de factura o HBL para comenzar.
+					</p>
+
+					<div className="mt-10 w-full max-w-lg">
+						<form onSubmit={handleOnSubmit} className="relative group">
+							<div className="flex flex-col sm:flex-row gap-3 p-2 rounded-2xl bg-white/50 dark:bg-slate-900/50 backdrop-blur-xl border border-slate-200 dark:border-white/10 shadow-2xl focus-within:ring-2 focus-within:ring-brand-primary transition-all duration-300">
+								<div className="flex-auto relative">
+									<MagnifyingGlassIcon className="pointer-events-none absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400 group-focus-within:text-brand-primary transition-colors" />
+									<input
+										id="search"
+										name="search"
+										type="text"
+										required
+										defaultValue={searchTerm}
+										className="w-full bg-transparent border-none pl-11 pr-4 py-3 text-slate-900 dark:text-white placeholder:text-slate-500 focus:ring-0 sm:text-sm"
+										placeholder="Número de Factura o HBL..."
+									/>
+								</div>
 								<button
 									type="submit"
 									disabled={isLoading}
-									className=" inline-flex justify-center my-4 md:my-0 items-center gap-2 rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
+									className="rounded-xl bg-brand-primary px-8 py-3 text-sm font-semibold text-white shadow-lg hover:bg-brand-secondary transition-all active:scale-95 disabled:opacity-50 flex items-center justify-center gap-2"
 								>
-									<MagnifyingGlassIcon className="h-5 w-5" />
-									{hasSearched && isLoading ? "Buscando " : "Buscar"}
+									{hasSearched && isLoading ? (
+										<>
+											<div className="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
+											Buscando
+										</>
+									) : (
+										"Rastrear Ahora"
+									)}
 								</button>
 							</div>
 						</form>
 					</div>
+
+					{(!hasSearched || (!invoice && !isLoading)) && (
+						<div className="mt-12 flex flex-col items-center gap-4">
+							<Link
+								href="https://api.whatsapp.com/send?phone=%2B17542778810"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="inline-flex items-center gap-2 text-slate-600 dark:text-slate-400 hover:text-brand-primary transition-colors"
+							>
+								<MdOutlineWhatsapp className="h-5 w-5" />
+								<span>¿Necesitas ayuda? Contáctanos</span>
+							</Link>
+						</div>
+					)}
 				</div>
-				{invoice == undefined || invoice == null ? (
-					<div className="flex flex-col max-w-2xl mx-auto gap-2 items-start">
-						<p className="mt-4 text-md leading-8 text-gray-600">
-							Rastree su paquete a Cuba fácilmente. Nuestro sistema de tracking le ofrece
-							información actualizada 24/7 sobre sus envíos marítimos o aéreos. Seguimiento seguro,
-							rápido y confiable.
-						</p>
-						<Link
-							href="https://api.whatsapp.com/send?phone=%2B17542778810"
-							target="_blank"
-							rel="noopener noreferrer"
-							className="self-center inline-flex items-center gap-2 text-gray-800 hover:text-green-500"
-						>
-							<MdOutlineWhatsapp className="h-5 w-5" />
-							Contáctenos
-						</Link>
+
+				{hasSearched && !isLoading && invoice && (
+					<div className="mt-20">
+						<TrackingDetails invoice={invoice} />
 					</div>
-				) : (
-					<TrackingDetails invoice={invoice} />
+				)}
+
+				{hasSearched && !isLoading && !invoice && (
+					<div className="mt-12 text-center text-slate-600 dark:text-slate-400 animate-fade-in">
+						No se encontró información para el número ingresado. Por favor, verifica el dato e intenta nuevamente.
+					</div>
 				)}
 			</div>
-			<ShadowBg2 />
 		</div>
 	);
 };
