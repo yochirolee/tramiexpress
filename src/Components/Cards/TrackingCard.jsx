@@ -60,7 +60,7 @@ export const TrackingCard = ({ parcel, invoice }) => {
 										<span className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Destino</span>
 									</div>
 									<span className="text-sm font-bold text-slate-900 dark:text-white text-right ml-2">
-										{invoice?.province}{invoice?.city ? ` - ${invoice.city}` : ""}
+										{invoice?.province}{invoice?.city ? " - " + invoice.city : ""}
 									</span>
 								</div>
 
@@ -68,7 +68,7 @@ export const TrackingCard = ({ parcel, invoice }) => {
 								<div className="flex flex-col gap-2 p-3 rounded-2xl bg-slate-50/50 dark:bg-white/[0.02] border border-dashed border-slate-200 dark:border-white/10">
 									<span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest opacity-70">Contenido</span>
 									<p className="text-sm text-slate-600 dark:text-slate-400 italic leading-snug">
-										"{parcel?.description || "Sin descripción disponible"}"
+										{parcel?.description || "Sin descripción disponible"}
 									</p>
 								</div>
 							</div>
