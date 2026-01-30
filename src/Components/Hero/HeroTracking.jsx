@@ -41,7 +41,7 @@ export const HeroTracking = () => {
 	}
 
 	return (
-		<div className="relative isolate min-h-[60vh]">
+		<div className="relative pt-20 isolate min-h-screen">
 			<ColorTransitionGradient />
 
 			<div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
@@ -100,7 +100,7 @@ export const HeroTracking = () => {
 					{(!hasSearched || (!invoice && !isLoading)) && (
 						<div className="mt-12 flex flex-col items-center gap-4">
 							<Link
-								href="https://api.whatsapp.com/send?phone=%2B17542778810"
+								href="https://api.whatsapp.com/send?phone=%2B19413990002"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="inline-flex items-center gap-2 text-slate-600 dark:text-slate-400 hover:text-brand-primary transition-colors"

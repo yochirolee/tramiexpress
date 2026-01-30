@@ -14,7 +14,7 @@ export const SocialMedia = () => {
 			</div>
 			<div className=" items-center mt-10  z-20 justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
 				<a
-					href="https://www.facebook.com/tramiexpress"
+					href="https://www.facebook.com/TramiXpress/"
 					target="_blank"
 					className="w-full sm:w-auto border dark:bg-gray-800 focus:ring-4 focus:outline-none bg- focus:ring-gray-300 text-gray-800 rounded-lg inline-flex items-center justify-center px-4 py-2.5 "
 				>

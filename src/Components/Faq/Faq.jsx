@@ -64,7 +64,7 @@ export default function Faq() {
 			<div className="mx-auto max-w-2xl text-center lg:max-w-4xl flex flex-col justify-center items-center">
 				<h2 className="text-base font-semibold leading-7 text-brand-primary">Preguntas Frecuentes</h2>
 				<p className="mt-2 text-2xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-3xl">
-					Somos tu agencia de envíos a Cuba y estamos aquí para ayudarte en cada paso.
+					Agencia de envíos a Cuba líder en Sarasota, Bradenton y Tampa.
 				</p>
 			</div>
 			<div>

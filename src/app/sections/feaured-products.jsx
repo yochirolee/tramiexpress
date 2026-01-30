@@ -100,7 +100,7 @@ const products = [
 
 // Add this function at the top level of your component
 const createWhatsAppLink = (product) => {
-	const phoneNumber = "17542778810"; // Replace with your actual WhatsApp number
+	const phoneNumber = "19413990002"; // Replace with your actual WhatsApp number
 	const message = encodeURIComponent(`Pre-reservar ${product.name}`);
 	return `https://wa.me/${phoneNumber}?text=${message}`;
 };

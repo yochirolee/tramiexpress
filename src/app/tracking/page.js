@@ -33,8 +33,7 @@ const Tracking = () => {
 	return (
 		<Suspense fallback={<div>Cargando...</div>}>
 			<HeroTracking />
-			<Stats />
-			<TrackingContent />
+			
 		</Suspense>
 	);
 };

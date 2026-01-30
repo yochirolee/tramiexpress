@@ -36,23 +36,24 @@ const localBusinessSchema = {
 	name: "TramiXpress",
 	alternateName: "TramiXpress Florida",
 	description:
-		"TramiXpress ofrece servicios de envío a Cuba seguros y rápidos desde Sarasota, FL. Especialistas en paquetería, remesas, alimentos y carga.",
+		"TramiXpress: Tu agencia líder en envíos a Cuba desde Sarasota, Bradenton y Tampa. Ofrecemos paquetería, remesas, alimentos y carga con entrega puerta a puerta garantizada.",
 	url: "https://tramiexpress.com",
-	telephone: "+1-754-277-8810",
+	telephone: "+1-941-399-0002",
+	email: "Tramixpress.llc@gmail.com",
 	priceRange: "$$",
 	image: "https://tramiexpress.com/logo.png",
 	address: {
 		"@type": "PostalAddress",
-		streetAddress: "Sarasota",
-		addressLocality: "Sarasota",
+		streetAddress: "1201 9th ST W",
+		addressLocality: "Bradenton",
 		addressRegion: "FL",
-		postalCode: "34231",
+		postalCode: "34205",
 		addressCountry: "US",
 	},
 	geo: {
 		"@type": "GeoCoordinates",
-		latitude: 27.3364,
-		longitude: -82.5307,
+		latitude: 27.4913,
+		longitude: -82.5714,
 	},
 	openingHoursSpecification: [
 		{
@@ -109,9 +110,10 @@ const organizationSchema = {
 	},
 	contactPoint: {
 		"@type": "ContactPoint",
-		telephone: "+1-754-277-8810",
+		telephone: "+1-941-399-0002",
 		contactType: "customer service",
 		availableLanguage: ["Spanish", "English"],
+		email: "Tramixpress.llc@gmail.com",
 	},
 	sameAs: [
 		"https://www.facebook.com/tramiexpress",

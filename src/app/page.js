@@ -24,9 +24,7 @@ export default function Home() {
 				<PricingSectionNew />
 				<TrackingSection />
 			</Suspense>
-			<Stats />
 			<ProcessBentoGrid />
-			<TrackingContent />
 			<SocialMedia />
 			<Faq />
 			<NewsLetter />

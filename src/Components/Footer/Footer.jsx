@@ -30,7 +30,7 @@ export const Footer = () => {
 					</svg>
 				</a>
 				<a
-					href="https://api.whatsapp.com/send?phone=%2B17542778810"
+					href="https://api.whatsapp.com/send?phone=%2B19413990002"
 					target="_blank"
 					rel="noopener noreferrer"
 					aria-label="Whatsapp"
@@ -68,10 +68,13 @@ export const Footer = () => {
 					Términos y Condiciones
 				</Link>
 			</div>
-			<div className="relative z-50 text-slate-600 dark:text-slate-500">© {new Date().getFullYear()} TramiXpress. Todos los derechos reservados.
+			<div className="relative z-50 text-slate-600 dark:text-slate-400 mt-4 space-y-1">
+				<p>1201 9th ST W, Bradenton, FL, United States</p>
+				<p>Tel: +1 941-399-0002 | Email: Tramixpress.llc@gmail.com</p>
+			</div>
+			<div className="relative z-50 text-slate-600 dark:text-slate-500 mt-6">© {new Date().getFullYear()} TramiXpress. Todos los derechos reservados.
 				{" · "}
 				Desarrollado por Valelee LLC
-				{/* <a href="https://valelee.com" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline-offset-2 hover:underline">Valelee LLC</a>*/}
 			</div>
 		</footer>
 	);

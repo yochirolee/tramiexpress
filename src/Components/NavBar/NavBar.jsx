@@ -22,7 +22,7 @@ export default function NavBar() {
 				<div className="flex flex-1">
 					<Link href="/" className="-m-1.5 p-1.5">
 						<span className="sr-only">TramiXpress</span>
-						<Image width={50} height={50} src="/ctelogo.png" alt="Logo TramiXpress" />
+						<Image width={50} height={50} src="/logo.jpg" alt="Logo TramiXpress" />
 					</Link>
 				</div>
 				<div className="flex  gap-4 lg:hidden">

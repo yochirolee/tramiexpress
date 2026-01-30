@@ -10,13 +10,13 @@ export const HeroLeft = () => {
 				Agencia de Envío de Paquetes a Cuba
 			</h1>
 			<h2 className="mt-4 sm:mt-6 text-base sm:text-lg leading-7 sm:leading-8 text-gray-600">
-				TramiXpress es tu agencia confiable para envíos marítimos y aéreos a Cuba y el Caribe, con más de 20 años de experiencia. Ofrecemos entrega puerta a puerta, seguimiento en tiempo real y atención personalizada desde Sarasota.
+				TramiXpress es tu agencia de confianza para envíos a Cuba desde Sarasota, Bradenton y Tampa. Con más de 20 años de experiencia, ofrecemos entrega puerta a puerta y atención personalizada desde nuestra oficina en Bradenton.
 			</h2>
 			<AnimatedShinyTextDemo />
 			<div className="mt-6 sm:mt-10 flex flex-col sm:flex-row items-center justify-center gap-y-4 sm:gap-x-6">
 				<Link
 					prefetch={true}
-					href="https://api.whatsapp.com/send?phone=%2B17542778810"
+					href="https://api.whatsapp.com/send?phone=%2B19413990002"
 					target="_blank"
 					rel="noopener noreferrer"
 					aria-label="Enviar mensaje por WhatsApp a TramiXpress"

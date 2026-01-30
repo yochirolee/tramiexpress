@@ -12,17 +12,17 @@ export const HeroNew = () => {
             <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:items-center lg:px-8 lg:py-40">
                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
                     <h1 className="mt-10 text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-6xl">
-                        <Highlighter action="underline" color="#c8611b">Agencia</Highlighter> de Envío de Paquetes a{" "}
+                        <Highlighter action="underline" color="#c8611b">Agencia</Highlighter> de Envíos a{" "}
+                        Cuba
                         <Highlighter action="highlight" color="#ff7300">
-                            Cuba
-                        </Highlighter>
+                            desde Sarasota, Bradenton y Tampa </Highlighter>
                     </h1>
                     <p className="mt-6 text-lg leading-8 text-slate-600 dark:text-slate-300">
-                        TramiXpress es tu agencia confiable para envíos marítimos y aéreos a Cuba y el Caribe, con más de 20 años de experiencia. Ofrecemos entrega puerta a puerta, seguimiento en tiempo real y atención personalizada.
+                        TramiXpress es tu agencia de confianza para envíos a Cuba desde la costa oeste de Florida. Especialistas en paquetería marítima y aérea con más de 20 años de experiencia, entregas puerta a puerta y seguimiento en tiempo real.
                     </p>
                     <div className="mt-10 flex items-center gap-x-6">
                         <Link
-                            href="https://api.whatsapp.com/send?phone=%2B17542778810"
+                            href="https://api.whatsapp.com/send?phone=%2B19413990002"
                             target="_blank"
                             className="rounded-md bg-brand-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-brand-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-primary flex items-center gap-2"
                         >

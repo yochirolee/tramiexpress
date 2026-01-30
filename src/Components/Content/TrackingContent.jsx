@@ -45,7 +45,7 @@ export const TrackingContent = () => {
 								Envíe Rápido y Seguro
 							</h2>
 							<p className="mt-2 text-2xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-3xl">
-								TramiXpress a Cuba y el Caribe
+								Servicio Premium a Cuba desde Sarasota, Bradenton y Tampa
 							</p>
 						</div>
 					</div>
@@ -59,14 +59,14 @@ export const TrackingContent = () => {
 						loading="lazy"
 						priority={false}
 						quality={85}
-						alt="Barco de carga transportando contenedores para envíos a Cuba"
+						alt="Barco de carga transportando contenedores para envíos a Cuba desde Tampa y Sarasota"
 					/>
 				</div>
 				<div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
 					<div className="lg:pr-4">
 						<div className="max-w-xl text-base leading-7 text-slate-600 dark:text-slate-300 lg:max-w-lg">
 							<p>
-								Nos enorgullece ofrecer envíos de paquetes rápidos y seguros a Cuba desde cualquier parte del mundo. Nuestra experiencia y compromiso se reflejan en tarifas competitivas, atención personalizada y un servicio de calidad. Desde la aduana hasta la entrega final, gestionamos cada paso para que tu envío a Cuba sea eficiente y sin complicaciones.
+								En TramiXpress, nos especializamos en conectar a las familias de Sarasota, Bradenton y Tampa con sus seres queridos en Cuba. Ofrecemos envíos rápidos, seguros y con la garantía de más de dos décadas de experiencia en logística hacia la isla. Gestionamos todo el proceso aduanal para que tu envío llegue a su destino en Cuba de manera eficiente.
 							</p>
 							<ul role="list" className="mt-8 space-y-8 text-slate-400">
 								<li className="flex gap-x-3">

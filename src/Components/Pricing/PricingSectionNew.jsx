@@ -8,7 +8,7 @@ const tiers = [
         name: "Estándar",
         id: "tier-standard",
         href: "/oferta-envio-cuba-4-julio",
-        priceMonthly: "$1.99",
+        priceMonthly: "$1.79",
         description: "La tarifa base para envíos seguros a Cuba.",
         features: [
             "Envío Marítimo Regular",
@@ -20,27 +20,26 @@ const tiers = [
         buttonText: "Empezar Envío",
     },
     {
-        name: "Oferta Jueves",
-        id: "tier-offer",
+        name: "Caja de Alimentos y Aseo",
+        id: "tier-wholesale",
         href: "#",
-        priceMonthly: "$1.49",
-        description: "¡Nuestra mejor tarifa semanal! Solo jueves.",
+        priceMonthly: "Solamente $32",
+        description: "Caja 12x12x12 de alimentos y aseo.",
         features: [
-            "Precio reducido por libra",
-            "Prioridad en consolidación",
+            "Envío Marítimo Regular",
             "Entrega puerta a puerta",
             "Seguimiento en tiempo real",
             "Soporte prioritario WhatsApp",
         ],
         featured: true,
-        buttonText: "Aprovechar Oferta",
+        buttonText: "Contactar Ventas",
     },
     {
         name: "Caja de Alimentos y Aseo",
         id: "tier-wholesale",
         href: "#",
-        priceMonthly: "Solamente $30",
-        description: "Caja 12x12x12 de alimentos y aseo.",
+        priceMonthly: "Solamente $57",
+        description: "Caja 16x16x16 de alimentos y aseo.",
         features: [
             "Envío Marítimo Regular",
             "Entrega puerta a puerta",
@@ -56,7 +55,7 @@ const tiers = [
 export const PricingSectionNew = () => {
     return (
         <section className="relative isolate bg-slate-50 dark:bg-slate-950 lg:rounded-3xl py-24 sm:py-32 overflow-hidden">
-           <ColorTransitionGradient />
+            <ColorTransitionGradient />
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-4xl text-center">
                     <h2 className="text-base font-semibold leading-7 text-brand-primary">Precios Transparentes</h2>

@@ -16,9 +16,9 @@ const inter = Inter({
 });
 
 export const metadata = {
-	title: "TramiXpress - Envíos a Cuba desde Sarasota, Bradenton y Tampa",
+	title: "TramiXpress - Envíos a Cuba desde Sarasota, Bradenton y Tampa | Paquetería y Remesas",
 	description:
-		"TramiXpress ofrece servicios de envío a Cuba seguros y rápidos desde Sarasota, FL. Especialistas en paquetería, remesas, alimentos y carga a toda Cuba.",
+		"TramiXpress: Tu agencia líder en envíos a Cuba desde Sarasota, Bradenton y Tampa. Ofrecemos paquetería, remesas, alimentos y carga con entrega puerta a puerta garantizada.",
 	generator: "Next.js",
 	applicationName: "TramiXpress",
 	referrer: "origin-when-cross-origin",
@@ -28,17 +28,15 @@ export const metadata = {
 	},
 	keywords: [
 		"Envíos a Cuba desde Sarasota",
-		"Paquetes a Cuba Bradenton",
-		"Remesas a Cuba Tampa",
-		"Envío marítimo y aéreo a Cuba",
-		"Servicios de mensajería a Cuba",
-		"Agencia de envíos a Cuba en Sarasota",
-		"TramiXpress envíos a Cuba",
-		"Enviar dinero a Cuba",
-		"Enviar comida a Cuba",
-		"Envíos seguros a Cuba",
-		"Mejor servicio de envíos a Cuba",
-		"Envíos garantizados a Cuba",
+		"Paquetes a Cuba desde Bradenton",
+		"Remesas a Cuba desde Tampa",
+		"Agencia de envíos a Cuba Bradenton",
+		"Envío de combos de comida a Cuba",
+		"Envíos aéreos y marítimos a Cuba Florida",
+		"TramiXpress Bradenton office",
+		"Agencia de pasajes y envíos a Cuba",
+		"Enviar paquetes a Cuba desde Florida central",
+		"Servicio puerta a puerta Cuba TramiXpress",
 	],
 	authors: [{ name: "TramiXpress Team" }],
 	creator: "TramiXpress",
