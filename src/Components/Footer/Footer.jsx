@@ -8,7 +8,7 @@ export const Footer = () => {
 			<div className="relative z-50 h-12 inline-flex gap-8 p-10">
 
 				<a
-					href="https://www.facebook.com/tramiexpress"
+					href="https://www.facebook.com/tramiXpress"
 					target="_blank"
 					rel="noopener noreferrer"
 					aria-label="Facebook"
