@@ -57,7 +57,7 @@ export default function NavBar() {
 					<div className="flex items-center justify-between">
 						<Link href="/" className="-m-1.5 p-1.5">
 							<span className="sr-only">TramiXpress</span>
-							<Image width={50} height={50} src="/ctelogo.png" alt="TramiXpress Logo" />
+							<Image width={50} height={50} src="/logo.jpg" alt="TramiXpress Logo" />
 						</Link>
 						<button
 							type="button"
